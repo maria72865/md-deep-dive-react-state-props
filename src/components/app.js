@@ -1,11 +1,18 @@
-import React, { Component } from 'react';
+import React, { Component } from "react";
+import JournalList from "./journal/journal_list";
 
 export default class App extends Component {
   render() {
     return (
-      <div className='app'>
-        <h1>DevCamp React Starter</h1>
-        <h2>React Skeleton</h2>
+      <div>
+        <div className = "header">
+          <i className="fas fa-blog"></i>
+          <h1>My Blah Blah Blog</h1>
+        </div>
+
+        <JournalList className="journal_list" heading="Blah" />
+
+        <JournalList heading="Blah Blah" />
       </div>
     );
   }
