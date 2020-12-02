@@ -20,12 +20,19 @@
     "webpack-dev-server": ">=3.1.11"
   },
   "dependencies": {
+    "@babel/generator": "^7.12.5",
     "babel-preset-stage-1": "6.24.1",
+    "elliptic": "^6.5.3",
+    "http-proxy": "^1.18.1",
+    "lodash": "^4.17.20",
+    "node-fetch": "^2.6.1",
+    "node-forge": "^0.10.0",
     "npm-check-updates": "^10.2.2",
     "react": "^16.3.2",
     "react-dom": ">=16.3.3",
     "react-router-dom": "4.2.2",
-    "serialize-javascript": "^3.0.0",
-    "webpack": "4.7.0"
+    "serialize-javascript": "^3.1.0",
+    "webpack": "4.7.0",
+    "websocket-extensions": "^0.1.4"
   }
 }
