@@ -24,7 +24,7 @@
     "babel-preset-stage-1": "6.24.1",
     "elliptic": "^6.5.3",
     "http-proxy": "^1.18.1",
-    "lodash": "^4.17.20",
+    "lodash": "^4.17.21",
     "node-fetch": "^2.6.1",
     "node-forge": "^0.10.0",
     "npm-check-updates": "^10.2.2",
